@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+Body{
+Background-color: #632432;
+Font-family: Arial;
+}
+
+#main-container{
+Margin: 150px auto;
+Width: 600px;
+}
+
+Table{
+Background-color:White;
+Text-align: left;
+Border-collapse: collapse;
+Width: 100%;
+}
+
+Th, td{
+Padding: 20px;
+}
+
+Thead{
+Background-color:#246355;
+Border-bottom: solid 5px #0F362D;
+Color:White;
+}
+
+Tr:nth-child(even){
+Background-color:#ddd;
+}
+
+Tr:hover td{
+Background-color:#369681
+color: White;
+}
